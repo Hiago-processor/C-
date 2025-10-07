@@ -1,0 +1,10 @@
+/*include e iostream é a base do c++/ inicio.*/
+#include <iostream>
+
+using namespace std;/**/
+
+int main() {
+    int number = 17;//o comando somente numeros inteiros, ex: 2, 10, 100, 1000 etc...
+    cout << number;
+    return 0;
+}
