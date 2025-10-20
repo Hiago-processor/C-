@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int num1, num2; //variavel
+    cout << "Digite um numero: " << endl;/*imprimindo pergunta*/
+    cin >> num1;/*lendo a variavel numero*/
+    cout << "Digite outro numero para ter a soma: " << endl;
+    cin >> num2;
+    cout << "O resultado da conta é: " << num1 + num2 << endl;
+    return 0;
+}
