@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int numero; //variavel
+    cout << "Digite um numero: " << endl;/*imprimindo pergunta*/
+    cin >> numero;/*lendo a variavel numero*/
+    cout << "O seu numero foi: " << numero << endl;/*resposta da pergunta*/
+    return 0;
+}
